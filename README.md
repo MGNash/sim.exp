@@ -8,9 +8,9 @@ The function 'sim.exp' simulates the results of experiments measuring associatio
 The number of subjects, proteins, true positives, and times the experiment is repeated, the desired FDR, the strength of the association for those proteins associated with the phenotype, and the type of correlation being measured (Spearman or Pearson) can be set by arguments to the function 'sim.exp'. Simulated data are bivariate normal (i.e. normal distribution of protein and phenotype with linear association) with no missing values. For each simulated experiment, sim.exp returns the number of true and false positives, and it is easy to calculate from these the observed proportion of false positives.
 
 Files contained in this repository:
-simulate.PDF - contains an example showing how to use 'sim.exp' to simulate results for experiments, repeating much of the information found here. 
-simulate.Rmd - contains the code used to generate 'simulate.PDF'
-simulate.R - contains definitions for two functions: 'sim.exp' and 'getcdf'. 'getcdf' is used by 'sim.exp' to assign p values to sample correlations. 
+simulate.PDF - contains an example showing how to use 'sim.exp' to simulate results for experiments, repeating much of the information found here.  
+simulate.Rmd - contains the code used to generate 'simulate.PDF'  
+simulate.R - contains definitions for two functions: 'sim.exp' and 'getcdf'. 'getcdf' is used by 'sim.exp' to assign p values to sample correlations.  
 
 'sim.exp' takes the following arguments:
 
